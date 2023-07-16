@@ -306,4 +306,72 @@ footer {
     margin-left: 148px;
 }
 
+.card h4 {
+    margin-bottom: 20px;
+}
+
+
+/* features section start */
+.features {
+    display: flex;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.features-content .fe-section-titel {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+.features-content .content-f-descrip {
+    margin-left: 50px;
+}
+
+.features-content .card {
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-year {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 200px;
+    height: 100px;
+    color: #FFF;
+    position: relative;
+    bottom: 50px;
+    transition: .5s;
+}
+.ten-year:hover{
+    background: #FF2171;
+}
+.ten-year h2{
+    color: #FFF;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+padding-top: 30px;
+}
+
+.ten-year p{
+    color: #FFF;
+    text-align: center;
+font-size: 15px;
+font-weight: 500;
+}
+.features-img img{
+    width: 508px;
+    margin-top: 40px;
+
+flex-shrink: 0;
+}
+/* features section end */
+
+
+
 /* footer section end */
