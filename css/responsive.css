@@ -5,6 +5,8 @@
 
 @media (min-width: 279px) and (max-width: 319px) {
   /* CSS */
+
+  /* ### banner section start ### */
   header {
     background: rgba(255, 144, 14, 0.10);
     padding: 15px 5px;
@@ -31,6 +33,7 @@
     text-decoration: none;
     color: #424242;
   }
+
   .banner-content .banner-title {
     color: var(--dark-01, #131313);
     text-align: center;
@@ -39,6 +42,7 @@
     line-height: normal;
     margin-bottom: 5px;
   }
+
   .banner-content .banner-descp {
     color: var(--dark-03, #727272);
     text-align: center;
@@ -47,6 +51,7 @@
     font-weight: 400;
     line-height: 15px;
   }
+  /* ### banner section end ### */
 
   /* CSS */
 
@@ -54,14 +59,16 @@
 
 
 }
+
 /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ###############Device = Most of the Smartphones Mobiles (Portrait) ##################
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
+  /* ### banner section start ### */
   /* CSS */
+
   header {
     background: rgba(255, 144, 14, 0.10);
     padding: 20px 10px;
@@ -88,6 +95,7 @@
     text-decoration: none;
     color: #424242;
   }
+
   .banner-content .banner-title {
     color: var(--dark-01, #131313);
     text-align: center;
@@ -96,6 +104,7 @@
     line-height: normal;
     margin-bottom: 10px;
   }
+
   .banner-content .banner-descp {
     color: var(--dark-03, #727272);
     text-align: center;
@@ -104,9 +113,52 @@
     font-weight: 400;
     line-height: 22px;
   }
-
+  /* ### banner section end ### */
+  /* ### team section start ### */
+  .teamd-img-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+.teams-container {
+  display: flex;
+  align-items: center;
+  margin: 80px;
+  flex-direction: column;
+}
+.teamd-img-container .team-img-a2z {
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+}
+#team-img-4{
+  margin-bottom: 50px;
+}
+#Quick {
+  color: var(--dark-03, #727272);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+#of-our {
+  color: var(--dark-01, #131313);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#Features {
+  color: #FF900E;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.teams-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
   /* CSS */
 }
+
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -115,6 +167,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   /* CSS */
+  /* ### banner section start ### */
   header {
     background: rgba(255, 144, 14, 0.10);
     padding: 20px 10px;
@@ -159,6 +212,7 @@
     font-weight: 400;
     line-height: 22px;
   }
+  /* ### banner section end ### */
   /* CSS */
 }
 
@@ -170,32 +224,35 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* CSS */
-    header {
-      background: rgba(255, 144, 14, 0.10);
-      padding: 20px 10px;
-    }
-    nav .nav-title {
-      color: var(--dark-01, #131313);
-      text-align: center;
-      font-family: Work Sans;
-      font-size: 38px;
-      margin-left: 10px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
+  /* CSS */
+  /* ### banner section start ### */
+  header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 20px 10px;
   }
-  
+
+  nav .nav-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 38px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   nav ul li {
     list-style: none;
     margin-left: 0px;
     font-size: 25px;
   }
-  
+
   nav ul li a {
     text-decoration: none;
-    color: #424242; 
+    color: #424242;
   }
+
   .banner-content .banner-title {
     color: var(--dark-01, #131313);
     text-align: center;
@@ -204,6 +261,7 @@
     line-height: normal;
     margin-bottom: 10px;
   }
+
   .banner-content .banner-descp {
     color: var(--dark-03, #727272);
     text-align: center;
@@ -212,7 +270,7 @@
     font-weight: 400;
     line-height: 30px;
   }
-  
+  /* ### banner section end ### */
   /* CSS */
 
 
