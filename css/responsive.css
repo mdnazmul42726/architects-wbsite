@@ -1,0 +1,219 @@
+/* 
+  ##Device = Most of the Galaxy fold Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS */
+  header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 15px 5px;
+  }
+
+  nav .nav-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    margin-left: 7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 8px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #424242;
+  }
+  .banner-content .banner-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  .banner-content .banner-descp {
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  /* CSS */
+
+  /* CSS */
+
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 20px 10px;
+  }
+
+  nav .nav-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #424242;
+  }
+  .banner-content .banner-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .banner-content .banner-descp {
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  /* CSS */
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 20px 10px;
+  }
+
+  nav .nav-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 21px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #424242;
+  }
+
+  .banner-content .banner-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+
+  .banner-content .banner-descp {
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  /* CSS */
+}
+
+
+/* 
+  ##Device = Tablets, Notebook, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    header {
+      background: rgba(255, 144, 14, 0.10);
+      padding: 20px 10px;
+    }
+    nav .nav-title {
+      color: var(--dark-01, #131313);
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 38px;
+      margin-left: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 25px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #424242; 
+  }
+  .banner-content .banner-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .banner-content .banner-descp {
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  /* CSS */
+
+
+}
