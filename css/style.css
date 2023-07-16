@@ -14,6 +14,11 @@ header {
     padding: 50px 150px;
 }
 
+header nav .logo-g3 {
+    color: red;
+    font-size: 65px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -190,6 +195,7 @@ nav ul li a {
     color: var(--dark-01, #131313);
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .facts .facts-descrip {
@@ -205,6 +211,7 @@ nav ul li a {
     width: 100%;
     margin-top: 100px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .facts-card-container .card {
@@ -213,7 +220,7 @@ nav ul li a {
     text-align: center;
     padding: 40px 30px;
     width: 110px;
-height: 110px;
+    height: 110px;
 }
 
 .facts-card-container .card .card-start {
@@ -229,3 +236,74 @@ height: 110px;
     font-size: 15px;
     font-weight: 600;
 }
+
+/* sponsors style start */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors .sponsors-titel {
+    color: var(--dark-01, #131313);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsors .sponsors-descrip {
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    height: 150px
+}
+
+.sponsors-img-container .spnsores-a2z {
+    gap: 50px;
+    display: flex;
+
+}
+
+.spnsores-a2z .sp-img-a2z {
+    width: 100px;
+}
+
+/* sponsors style end */
+/* footer section start */
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.last-footer {
+    width: 80%;
+    align-items: center;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.last-footer .footer-content {
+    color: var(--dark-02, #424242);
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 148px;
+}
+
+/* footer section end */
